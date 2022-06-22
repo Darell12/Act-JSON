@@ -1,0 +1,29 @@
+{
+    "Familia" : [
+       {
+            "Nombres" : "Orlando Jesus",
+            "Apellidos" : "Estren Miranda",
+            "Edad" : "45",
+            "Profesion" : "SubGerente Farmaceutico"
+
+        },
+        {
+            "Nombres" : "Mirleys Aureth",
+            "Apellidos" : "Escorcia Acuña",
+            "Edad" : "39",
+            "Profesion" : "Confeccionista"
+        },
+        {
+            "Nombres" : "Kathleen Alanis",
+            "Apellidos" : "Estren Escorcia",
+            "Edad" : "22",
+            "Profesion" : "Ingeniera Civil"
+        },
+        {
+            "Nombres" : "Darell Orlando",
+            "Apellidos" : "Estren Escorcia",
+            "Edad" : "17",
+            "Profesion" : "Desarrollador de software"
+        }
+    ]
+}
