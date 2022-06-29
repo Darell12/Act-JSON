@@ -19,7 +19,7 @@ form.addEventListener('submit', function (e) {
 
 async function ObtenerDatos() {
 
-    const response = await fetch("http://127.0.0.1:5500/Familia.json");
+    const response = await fetch("Familia.json");
     let json = await response.json();
 
     console.log(json);
