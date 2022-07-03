@@ -2,20 +2,7 @@ console.log('Conectado')
 
 const div = document.querySelector('#contenedor');
 console.log(div);
-const btn = document.querySelector('#btn');
-console.log(btn);
-const form = document.querySelector('#form');
-console.log(form);
 
-
-
-
-form.addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    ObtenerDatos();
-    mostrarBoton();
-})
 
 async function ObtenerDatos() {
 
@@ -28,16 +15,13 @@ async function ObtenerDatos() {
 
     json.Familia.forEach(element => {
 
-        div.innerHTML +=  '<div class="card"> <h2>' + element.Nombres+ ' </h2> <br> <span>' +element.Apellidos+ '<br> Edad: ' + element.Edad+'<br> Profesión: '+element.Profesion+'</span> </div>';
-
+        div.innerHTML += '<div class="card"><div class="cover"><img src="'+element.URL+'" alt=""> <div class="img__back"></div> </div> <div class="description"> <h2>'+element.Nombres+'</h2> <p>'+element.Apellidos+'<BR> EDAD: '+element.Edad+' <BR> PROFESIÓN: '+element.Profesion+'</p></div> </div>';
     });
 
 
 }
 
-function mostrarBoton() {
-    btn.style.display = 'none';
-}
+ObtenerDatos();
 
 
 

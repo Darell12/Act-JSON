@@ -4,26 +4,36 @@
             "Nombres": "Orlando Jesus",
             "Apellidos": "Estren Miranda",
             "Edad": 45,
-            "Profesion": "SubGerente Farmaceutico"
-
+            "Profesion": "Administrador Farmaceutico",
+            "URL" : "images/PAPA.png"
         },
         {
             "Nombres": "Mirleys Aureth",
             "Apellidos": "Escorcia Acuña",
             "Edad": 39,
-            "Profesion": "Confeccionista"
+            "Profesion": "Confeccionista",
+            "URL" : "images/MOM.png"
         },
         {
             "Nombres": "Kathleen Alanis",
             "Apellidos": "Estren Escorcia",
             "Edad": 22,
-            "Profesion": "Ingeniera Civil"
+            "Profesion": "Ingeniera Civil",
+            "URL" : "images/KATH.png"
         },
         {
             "Nombres": "Darell Orlando",
             "Apellidos": "Estren Escorcia",
             "Edad": 17,
-            "Profesion": "Desarrollador de software"
+            "Profesion": "Desarrollador de software",
+            "URL" : "images/DAREL.png"
+        },
+        {
+            "Nombres": "Kalani",
+            "Apellidos": "Pacheco Estren",
+            "Edad": "7 Meses",
+            "Profesion": "La bebe de la casa",
+            "URL" : "images/BEBE.png"
         }
     ]
 }
